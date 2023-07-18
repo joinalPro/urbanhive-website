@@ -1,0 +1,117 @@
+/* Lato Font from Google  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Manrope:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.btn-primary{
+    /* margin-top: 20px; */
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #e893cf;
+    font-size: 18px;
+    margin-right: 10px;
+}
+header {
+    background-color: #9376e0;
+    
+}
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1400px;
+    
+   
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+    /* align-items: center  ; */
+}
+.logo-container img{
+    width: 100px;
+    margin-right: 20px;
+}
+.logo-container p{
+    font-size: 40px;
+    width: 200px;
+}
+.hive-color{
+    color: #e893cf;
+}
+
+.nav-items-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    
+}
+
+.nav-items-container a{
+    /* list-style: none; */
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+
+}
+.nav-items-container .login-btn{
+    background-color: #e893cf;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: black;
+}
+/* nav styles ended here */
+
+/* simple banner styles start here */
+.banner-container{
+    max-width: 1400px;
+    margin: 50px auto 0;
+    display: flex;
+    background-color: #e6e9eb;
+    padding: 10px;
+    border-radius: 5px;
+}
+.banner-text{
+    width: 50%;
+    text-align: center;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    border-radius: 5px;
+    /* height: 100%; */
+}
+/* using linear gradient in the text */
+.banner-text h1{
+    background-image: linear-gradient(to bottom,  #9376e0,  #e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+}
+.banner-text p{
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.fa-brands{
+    font-size: 50px;
+}
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto 20px;
+}
